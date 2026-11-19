@@ -1,0 +1,26 @@
+# Environment & Secrets (NEVER COMMIT API KEYS)
+.env
+*.env
+*.local
+
+# Python cache & virtual environments
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+env/
+.venv/
+
+# Backup & Scratch files
+*.bak
+*.dashboard_bak
+index_broken.html
+index_intact_*.html
+test_*.py
+prep_*.py
+apply_*.py
+
+# OS metadata
+.DS_Store
+Thumbs.db
+desktop.ini
